@@ -1,0 +1,14 @@
+ATUALIZAÇÃO DE CONSUMO — 20/10/2026
+
+A base public/data/Consumo.xlsx foi atualizada a partir de:
+Consumo Bases por Cor - 20-10-2026.xlsx
+
+Regra aplicada:
+- Consideradas as movimentações cuja Descr.Orig.movto seja "Item de ordem de produção".
+- Dados agregados por mês, cor e material no formato esperado pelo dashboard.
+- A chave do cache local foi incrementada para evitar que dados antigos do navegador sobrescrevam a base atualizada.
+
+Observação:
+- Cores em inglês encontradas na base foram normalizadas quando reconhecidas (BLACK = PRETO; WHITE = BRANCO).
+- Registros cuja cor não pôde ser identificada automaticamente ficam como "NÃO IDENTIFICADA" para evitar atribuição incorreta.
+- A planilha de projeção 2027 original foi preservada.
